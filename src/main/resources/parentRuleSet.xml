@@ -1,6 +1,6 @@
 <ruleSet>
 	<rule>
-		<name>ProcessVariablesLocation</name>		
+		<name>ProcessVariablesLocation</name>
 		<settings>
 			<setting name="location"></setting>
 		</settings>
@@ -20,8 +20,12 @@
 		</elementConventions>
 	</rule>
 	<rule>
-		<name>NoScriptChecker</name>
+		<name>NoExpressionChecker</name>
 		<state>false</state>
+	</rule>	
+	<rule>
+		<name>NoScriptChecker</name>
+		<state>false</state>	
 	</rule>
 	<rule>
 		<name>JavaDelegateChecker</name>
